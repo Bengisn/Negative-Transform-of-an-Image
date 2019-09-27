@@ -1,5 +1,5 @@
 %code of taking negative transform of an image
-img = imread('C:\Users\hakagunduz\Desktop\cicek.jpg');
+img = imread('C:\Users\bengisu\Desktop\cicek.jpg');
 img = rgb2gray(img); %renkli bir resim ise griye cevirmeliyiz
 x = im2double(img); %0-255 arasinda olan degerler 0-1 arasina tasinmis olur
 img2 = 1-x; %degerlerin tersi alinir
