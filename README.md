@@ -1,1 +1,1 @@
-# Negative-Transform-of-an-Image
+# Transforms-of-an-Image
