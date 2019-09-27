@@ -1,6 +1,6 @@
 %power transform of an image
 %power transform is s = c*r^(gama)
-a = imread('C:\Users\hakagunduz\Desktop\cicek.jpg');
+a = imread('C:\Users\bengisu\Desktop\cicek.jpg');
 a = rgb2gray(a); %renkli bir resim ise griye cevirmeliyiz
 adouble = im2double(a);
 s = adouble;
