@@ -1,5 +1,6 @@
 %imadjust degerleri 0-1 arasina ceviriyor
-a = imread('C:\Users\hakagunduz\Desktop\cicek.jpg');
+%imhist, imadjust, im2bw
+a = imread('C:\Users\bengisu\Desktop\cicek.jpg');
 a = rgb2gray(a); %renkli bir resim ise griye cevirmeliyiz
 imhist(a);
 b = imadjust(a, [0.5,0.9],[0.3,0.4]);
